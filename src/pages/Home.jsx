@@ -152,31 +152,48 @@ export default function Home() {
       {/* Speaking Highlight */}
       <section className="py-24 md:py-32 bg-[#2D5A3D]">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="max-w-3xl"
-          >
-            <span className="text-xs tracking-[0.2em] uppercase text-white/60">
-              Speaking & Facilitation
-            </span>
-            <h2 className="mt-4 font-serif text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
-              Provocation That Transforms
-            </h2>
-            <p className="mt-6 text-lg text-white/80 leading-relaxed">
-              Willson's keynotes don't just inspire—they challenge audiences to 
-              interrogate assumptions, embrace complexity, and commit to action. 
-              Every engagement is an invitation to remember our humanity.
-            </p>
-            <Link to={createPageUrl("Speaking")}>
-              <Button className="mt-8 bg-white text-[#2D5A3D] hover:bg-stone-100 px-8 py-6 text-base rounded-none group">
-                Book a Keynote
-                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </Link>
-          </motion.div>
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Image Left */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="relative aspect-[4/5] lg:aspect-square"
+            >
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/f932bba84_Gemini_Generated_Image_t5uv4mt5uv4mt5uv.png"
+                alt="Willson Chivhanga Speaking"
+                className="w-full h-full object-cover"
+              />
+            </motion.div>
+
+            {/* Content Right */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <span className="text-xs tracking-[0.2em] uppercase text-white/60">
+                Speaking & Facilitation
+              </span>
+              <h2 className="mt-4 font-serif text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
+                Provocation That Transforms
+              </h2>
+              <p className="mt-6 text-lg text-white/80 leading-relaxed">
+                Willson's keynotes don't just inspire—they challenge audiences to 
+                interrogate assumptions, embrace complexity, and commit to action. 
+                Every engagement is an invitation to remember our humanity.
+              </p>
+              <Link to={createPageUrl("Speaking")}>
+                <Button className="mt-8 bg-white text-[#2D5A3D] hover:bg-stone-100 px-8 py-6 text-base rounded-none group">
+                  Book a Keynote
+                  <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
+            </motion.div>
+          </div>
         </div>
       </section>
     </div>
