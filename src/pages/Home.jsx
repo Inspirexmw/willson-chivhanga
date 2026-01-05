@@ -111,30 +111,17 @@ export default function Home() {
               className="lg:col-span-7 text-center lg:text-left">
 
               <Quote className="w-12 h-12 text-[#2D5A3D] mx-auto lg:mx-0 mb-8 opacity-60" />
-              <p className="text-stone-200 text-2xl font-serif text-left leading-relaxed md:text-3xl lg:text-4xl">"I am because we are. In a world fractured by individualism and extraction, Umunthu calls us back to our shared humanity—a reminder that our liberation is bound together."
-
-
-
+              <p className="font-serif text-2xl md:text-3xl lg:text-4xl leading-relaxed text-stone-200">
+                "I am because we are. In a world fractured by individualism and extraction, 
+                Umunthu calls us back to our shared humanity—a reminder that our liberation 
+                is bound together."
               </p>
               <span className="mt-8 block text-stone-500 text-sm tracking-wider uppercase">
                 — On the Philosophy of Umunthu
               </span>
             </motion.div>
 
-            {/* Image */}
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="lg:col-span-5 relative aspect-square bg-stone-800">
 
-              <img
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600"
-                alt="Umunthu Philosophy"
-                className="w-full h-full object-cover opacity-70" />
-
-            </motion.div>
           </div>
         </div>
       </section>
@@ -189,12 +176,12 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="lg:col-span-4 relative aspect-[3/4] bg-stone-200">
+              className="lg:col-span-4 relative h-full min-h-[600px] bg-stone-200">
 
               <img
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/d3c243858_1761556625334.jpg"
                 alt="Community & Platforms"
-                className="w-full h-full object-cover" />
+                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
 
             </motion.div>
           </div>
@@ -216,7 +203,7 @@ export default function Home() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/3fdcbfd2d_1749152611544.jpg"
                 alt="Willson Chivhanga Speaking"
-                className="w-full h-full object-cover" />
+                className="w-full h-full object-cover object-[60%_center] grayscale" />
 
             </motion.div>
 
