@@ -176,12 +176,12 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="lg:col-span-4 relative aspect-[3/4] bg-stone-200">
+              className="lg:col-span-4 relative h-full min-h-[600px] bg-stone-200">
 
               <img
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/d3c243858_1761556625334.jpg"
                 alt="Community & Platforms"
-                className="w-full h-full object-cover object-bottom" />
+                className="w-full h-full object-cover" />
 
             </motion.div>
           </div>
