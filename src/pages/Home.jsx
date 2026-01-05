@@ -47,7 +47,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-b from-stone-100/50 to-transparent" />
-        <div className="max-w-7xl mx-auto px-6 md:px-12 py-24 relative z-10">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 pb-24 pt-8 relative z-10">
           <div className="px-1 grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
