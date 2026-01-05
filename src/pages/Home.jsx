@@ -86,12 +86,12 @@ export default function Home() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative aspect-[4/5] bg-stone-200"
+              className="relative aspect-[4/5]"
             >
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/f2b596432_willsonblackwhite.png"
                 alt="Willson Chivhanga"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </motion.div>
           </div>
