@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { createPageUrl } from "@/utils";
 import { ArrowRight, Clock, Tag } from "lucide-react";
 import NewsletterSignup from "@/components/forms/NewsletterSignup";
 
