@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
+import NewsletterSignup from "@/components/forms/NewsletterSignup";
 
 export default function Footer() {
   return (
@@ -11,6 +12,10 @@ export default function Footer() {
             <p className="mt-4 text-sm leading-relaxed text-stone-400">
               Leading with humanity in a fractured world through Umunthu philosophy.
             </p>
+            <div className="mt-6">
+              <h4 className="text-xs tracking-[0.2em] uppercase text-stone-500 mb-3">Newsletter</h4>
+              <NewsletterSignup variant="dark" inline={true} />
+            </div>
           </div>
 
           <div>

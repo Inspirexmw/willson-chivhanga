@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-import { createPageUrl } from "@/utils";
 import { ArrowRight, Clock, Tag } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import NewsletterSignup from "@/components/forms/NewsletterSignup";
 
 const categories = ["All", "Essays", "Reflections", "Book Excerpts"];
 
@@ -180,12 +178,9 @@ export default function Writing() {
               Occasional essays and reflections delivered directly to your inbox. 
               No noise, only substance.
             </p>
-            <Link to={createPageUrl("Contact")}>
-              <Button className="mt-8 bg-stone-900 hover:bg-stone-800 text-white px-8 py-6 text-base rounded-none group">
-                Subscribe
-                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </Link>
+            <div className="mt-8 max-w-md mx-auto">
+              <NewsletterSignup variant="light" />
+            </div>
           </motion.div>
         </div>
       </section>
