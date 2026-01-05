@@ -101,7 +101,7 @@ export default function Home() {
       {/* Philosophy Section */}
       <section className="py-24 md:py-32 bg-stone-900 text-stone-100">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <div className="grid lg:grid-cols-12 gap-12 items-center">
+          <div className="grid lg:grid-cols-12 gap-12 items-center justify-items-center">
             {/* Content */}
             <motion.div
               initial={{ opacity: 0 }}
