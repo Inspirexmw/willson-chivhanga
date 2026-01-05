@@ -203,7 +203,7 @@ export default function Home() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/3fdcbfd2d_1749152611544.jpg"
                 alt="Willson Chivhanga Speaking"
-                className="w-full h-full object-cover" />
+                className="w-full h-full object-cover object-[60%_center] grayscale" />
 
             </motion.div>
 
