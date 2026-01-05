@@ -162,7 +162,7 @@ export default function Home() {
               className="relative aspect-[4/5] lg:aspect-square"
             >
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/f932bba84_Gemini_Generated_Image_t5uv4mt5uv4mt5uv.png"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/3fdcbfd2d_1749152611544.jpg"
                 alt="Willson Chivhanga Speaking"
                 className="w-full h-full object-cover"
               />
