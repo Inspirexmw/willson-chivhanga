@@ -1,21 +1,21 @@
-import Home from './pages/Home';
 import About from './pages/About';
-import Umunthu360 from './pages/Umunthu360';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
 import Practice from './pages/Practice';
 import Speaking from './pages/Speaking';
+import Umunthu360 from './pages/Umunthu360';
 import Writing from './pages/Writing';
-import Contact from './pages/Contact';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
-    "Home": Home,
     "About": About,
-    "Umunthu360": Umunthu360,
+    "Contact": Contact,
+    "Home": Home,
     "Practice": Practice,
     "Speaking": Speaking,
+    "Umunthu360": Umunthu360,
     "Writing": Writing,
-    "Contact": Contact,
 }
 
 export const pagesConfig = {

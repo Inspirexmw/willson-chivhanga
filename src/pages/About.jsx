@@ -132,8 +132,8 @@ export default function About() {
               <div className="sticky top-32 space-y-12">
                 <div className="aspect-[3/4] bg-stone-200 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=800&fit=crop&crop=face"
-                    alt="Portrait"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/ee3f22060_Gemini_Generated_Image_84uvyw84uvyw84uv.png"
+                    alt="Willson Chivhanga"
                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   />
                 </div>
