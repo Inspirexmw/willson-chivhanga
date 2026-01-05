@@ -89,7 +89,7 @@ export default function Home() {
               className="relative aspect-[4/5] bg-stone-200"
             >
               <img
-                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/f2b596432_willsonblackwhite.png"
                 alt="Willson Chivhanga"
                 className="w-full h-full object-cover"
               />
