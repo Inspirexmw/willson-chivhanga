@@ -121,20 +121,7 @@ export default function Home() {
               </span>
             </motion.div>
 
-            {/* Image */}
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="lg:col-span-5 relative aspect-square bg-stone-800">
 
-              <img
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600"
-                alt="Umunthu Philosophy"
-                className="w-full h-full object-cover opacity-70" />
-
-            </motion.div>
           </div>
         </div>
       </section>
