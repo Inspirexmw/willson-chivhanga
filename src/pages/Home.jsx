@@ -47,17 +47,17 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-b from-stone-100/50 to-transparent" />
-        <div className="max-w-7xl mx-auto px-6 md:px-12 pb-24 pt-8 relative z-10">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 py-24 relative z-10">
           <div className="px-1 grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}>
 
-              <h1 className="font-serif text-4xl md:text-5xl lg:text-7xl text-stone-900 leading-[1.1]">
-                Leading with Humanity
-                <br />
-                <span className="italic text-[#2D5A3D]">in a Fractured World</span>
+              <h1 className="text-stone-900 text-3xl font-serif leading-[1.1] md:text-5xl lg:text-7xl">Leading with Humanity
+in a Fractured World
+
+
               </h1>
               
               <p className="mt-8 text-lg md:text-xl text-stone-600 leading-relaxed max-w-2xl">
@@ -86,12 +86,12 @@ export default function Home() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative aspect-[4/5] ml-16 mt-12">
+              className="relative aspect-[4/5] ml-8 mt-12">
 
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/f2b596432_willsonblackwhite.png"
                 alt="Willson Chivhanga"
-                className="w-full h-full object-contain object-[center_20%]" />
+                className="w-full h-full object-contain" />
 
             </motion.div>
           </div>
