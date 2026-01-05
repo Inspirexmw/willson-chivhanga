@@ -132,7 +132,7 @@ export default function About() {
               <div className="sticky top-32 space-y-12">
                 <div className="aspect-[3/4] bg-stone-200 overflow-hidden">
                   <img 
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/ee3f22060_Gemini_Generated_Image_84uvyw84uvyw84uv.png"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/f932bba84_Gemini_Generated_Image_t5uv4mt5uv4mt5uv.png"
                     alt="Willson Chivhanga"
                     className="w-full h-full object-cover object-[center_20%] scale-125 grayscale hover:grayscale-0 transition-all duration-700"
                   />
