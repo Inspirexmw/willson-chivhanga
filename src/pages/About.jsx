@@ -134,7 +134,7 @@ export default function About() {
                   <img 
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/ee3f22060_Gemini_Generated_Image_84uvyw84uvyw84uv.png"
                     alt="Willson Chivhanga"
-                    className="w-full h-full object-cover object-top scale-110 grayscale hover:grayscale-0 transition-all duration-700"
+                    className="w-full h-full object-cover object-[center_20%] scale-125 grayscale hover:grayscale-0 transition-all duration-700"
                   />
                 </div>
 
