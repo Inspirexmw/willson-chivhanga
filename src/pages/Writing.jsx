@@ -118,43 +118,44 @@ export default function Writing() {
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="space-y-0 divide-y divide-stone-200">
             {filteredArticles.map((article, index) => (
-              <motion.article
-                key={article.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="py-12 group cursor-pointer"
-              >
-                <div className="grid md:grid-cols-12 gap-6 items-start">
-                  <div className="md:col-span-2">
-                    <span className="text-sm text-stone-400">{article.date}</span>
-                  </div>
-                  
-                  <div className="md:col-span-8">
-                    <h2 className="font-serif text-2xl md:text-3xl text-stone-900 group-hover:text-[#2D5A3D] transition-colors">
-                      {article.title}
-                    </h2>
-                    <p className="mt-4 text-stone-600 leading-relaxed">
-                      {article.excerpt}
-                    </p>
-                    <div className="mt-6 flex items-center gap-6 text-sm text-stone-500">
-                      <span className="flex items-center gap-2">
-                        <Tag className="w-4 h-4" />
-                        {article.category}
-                      </span>
-                      <span className="flex items-center gap-2">
-                        <Clock className="w-4 h-4" />
-                        {article.readTime} read
-                      </span>
+              <Link key={article.id} to={createPageUrl(`Article?id=${article.id}`)}>
+                <motion.article
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.4, delay: index * 0.1 }}
+                  className="py-12 group cursor-pointer"
+                >
+                  <div className="grid md:grid-cols-12 gap-6 items-start">
+                    <div className="md:col-span-2">
+                      <span className="text-sm text-stone-400">{article.date}</span>
+                    </div>
+                    
+                    <div className="md:col-span-8">
+                      <h2 className="font-serif text-2xl md:text-3xl text-stone-900 group-hover:text-[#2D5A3D] transition-colors">
+                        {article.title}
+                      </h2>
+                      <p className="mt-4 text-stone-600 leading-relaxed">
+                        {article.excerpt}
+                      </p>
+                      <div className="mt-6 flex items-center gap-6 text-sm text-stone-500">
+                        <span className="flex items-center gap-2">
+                          <Tag className="w-4 h-4" />
+                          {article.category}
+                        </span>
+                        <span className="flex items-center gap-2">
+                          <Clock className="w-4 h-4" />
+                          {article.readTime} read
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="md:col-span-2 flex justify-end">
+                      <ArrowRight className="w-5 h-5 text-stone-400 group-hover:text-[#2D5A3D] group-hover:translate-x-2 transition-all" />
                     </div>
                   </div>
-
-                  <div className="md:col-span-2 flex justify-end">
-                    <ArrowRight className="w-5 h-5 text-stone-400 group-hover:text-[#2D5A3D] group-hover:translate-x-2 transition-all" />
-                  </div>
-                </div>
-              </motion.article>
+                </motion.article>
+              </Link>
             ))}
           </div>
         </div>
