@@ -181,7 +181,7 @@ export default function Home() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695b99a262537c0de83f974e/d3c243858_1761556625334.jpg"
                 alt="Community & Platforms"
-                className="w-full h-full object-cover" />
+                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
 
             </motion.div>
           </div>
