@@ -181,7 +181,7 @@ export default function Home() {
               <img
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600"
                 alt="Community & Platforms"
-                className="w-full h-full object-cover" />
+                className="w-full h-full object-cover object-bottom" />
 
             </motion.div>
           </div>
