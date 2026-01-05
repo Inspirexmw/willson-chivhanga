@@ -49,6 +49,14 @@ export default function About() {
 
               <div className="h-px bg-stone-200 my-12" />
 
+              <div className="aspect-video bg-stone-200 overflow-hidden mb-8">
+                <img 
+                  src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
+                  alt="Ubuntu philosophy"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
               <h2 className="font-serif text-2xl text-stone-900">The Ubuntu Foundation</h2>
               <p className="text-lg text-stone-600 leading-relaxed">
                 Born and raised in Zimbabwe, Willson's worldview was shaped by the Nguni 
@@ -71,6 +79,24 @@ export default function About() {
               </blockquote>
 
               <h2 className="font-serif text-2xl text-stone-900">Fifteen Years Across Afrika</h2>
+
+              <div className="grid md:grid-cols-2 gap-4 my-8">
+                <div className="aspect-[4/3] bg-stone-200 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1569014276595-8c40add1cd31"
+                    alt="African landscape"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="aspect-[4/3] bg-stone-200 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e"
+                    alt="Community gathering"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+
               <p className="text-lg text-stone-600 leading-relaxed">
                 Willson's journey has taken him across the African continent—from boardrooms 
                 in Johannesburg to community gatherings in Nairobi, from policy tables in 
@@ -107,6 +133,15 @@ export default function About() {
               </ul>
 
               <h2 className="font-serif text-2xl text-stone-900">The Bridge Between Worlds</h2>
+
+              <div className="aspect-[16/9] bg-stone-200 overflow-hidden my-8">
+                <img 
+                  src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620"
+                  alt="Bridge between worlds"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
               <p className="text-lg text-stone-600 leading-relaxed">
                 What distinguishes Willson's work is his ability to translate ancient wisdom 
                 into contemporary practice. He does not romanticize tradition nor dismiss 
