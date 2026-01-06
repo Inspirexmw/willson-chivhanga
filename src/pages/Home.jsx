@@ -108,7 +108,7 @@ export default function Home() {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="lg:col-span-7 text-center lg:text-left">
+              className="lg:col-span-7 text-center">
 
               <Quote className="w-12 h-12 text-[#2D5A3D] mx-auto lg:mx-0 mb-8 opacity-60" />
               <p className="font-serif text-2xl md:text-3xl lg:text-4xl leading-relaxed text-stone-200">
