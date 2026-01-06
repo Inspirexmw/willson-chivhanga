@@ -111,12 +111,12 @@ export default function Home() {
               className="lg:col-span-7 text-center">
 
               <Quote className="w-12 h-12 text-[#2D5A3D] mx-auto mb-8 opacity-60" />
-              <p className="font-serif text-2xl md:text-3xl lg:text-4xl leading-relaxed text-stone-200">
+              <p className="font-serif text-2xl md:text-3xl lg:text-4xl leading-relaxed text-stone-200 text-center">
                 "I am because we are. In a world fractured by individualism and extraction, 
                 Umunthu calls us back to our shared humanity—a reminder that our liberation 
                 is bound together."
               </p>
-              <span className="mt-8 block text-stone-500 text-sm tracking-wider uppercase">
+              <span className="mt-8 block text-stone-500 text-sm tracking-wider uppercase text-center">
                 — On the Philosophy of Umunthu
               </span>
             </motion.div>
