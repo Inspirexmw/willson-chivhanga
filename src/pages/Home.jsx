@@ -110,7 +110,7 @@ export default function Home() {
               transition={{ duration: 0.8 }}
               className="lg:col-span-7 text-center">
 
-              <Quote className="w-12 h-12 text-[#2D5A3D] mx-auto lg:mx-0 mb-8 opacity-60" />
+              <Quote className="w-12 h-12 text-[#2D5A3D] mx-auto mb-8 opacity-60" />
               <p className="font-serif text-2xl md:text-3xl lg:text-4xl leading-relaxed text-stone-200">
                 "I am because we are. In a world fractured by individualism and extraction, 
                 Umunthu calls us back to our shared humanity—a reminder that our liberation 
