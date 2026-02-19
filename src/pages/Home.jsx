@@ -101,14 +101,14 @@ export default function Home() {
       {/* Philosophy Section */}
       <section className="py-24 md:py-32 bg-stone-900 text-stone-100">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <div className="grid lg:grid-cols-12 gap-12 items-center justify-items-center">
+          <div className="flex items-center justify-center">
             {/* Content */}
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="lg:col-span-7 text-center">
+              className="max-w-4xl text-center">
 
               <Quote className="w-12 h-12 text-[#2D5A3D] mx-auto mb-8 opacity-60" />
               <p className="font-serif text-2xl md:text-3xl lg:text-4xl leading-relaxed text-stone-200 text-center">
